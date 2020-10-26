@@ -1,0 +1,6 @@
+package electricitybill.stepdefs;
+
+
+public class ElectricityBill {
+
+}

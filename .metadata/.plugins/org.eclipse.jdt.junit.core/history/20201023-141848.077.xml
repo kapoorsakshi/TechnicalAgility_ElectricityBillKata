@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="electricitybill" tests="8" started="8" failures="0" errors="2" ignored="0">
+  <testsuite name="electricitybill.TestRunner" time="0.62">
+    <testsuite name="Calculate electricity bill" time="0.62">
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.45">
+        <error>io.cucumber.junit.UndefinedStepException: The step "My electricity bill is  40" is undefined. You can implement it using the snippet(s) below:
+
+@Given("My electricity bill is  {int}")
+public void my_electricity_bill_is(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.014">
+        <error>io.cucumber.junit.UndefinedStepException: The step "My electricity bill is  50" is undefined. You can implement it using the snippet(s) below:
+
+@Given("My electricity bill is  {int}")
+public void my_electricity_bill_is(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.011"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.017"/>
+      <testcase name="Calculate Duty Charge Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.012"/>
+      <testcase name="Calculate Duty Charge Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.053"/>
+      <testcase name="Calculate Total Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.013"/>
+      <testcase name="Calculate Total Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.044"/>
+    </testsuite>
+  </testsuite>
+</testrun>

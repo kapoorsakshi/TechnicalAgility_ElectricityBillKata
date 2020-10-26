@@ -1,0 +1,34 @@
+package stepdefs;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class ElectricityBillTest {
+	
+	
+	
+
+		@Given("My electricity bill is  {int}")
+		public void my_electricity_bill_is(Integer int1) {
+		    // Write code here that turns the phrase above into concrete actions
+		    throw new io.cucumber.java.PendingException();
+		}
+
+
+		@When("I check for the energy charges")
+		public void i_check_for_the_energy_charges() {
+		    // Write code here that turns the phrase above into concrete actions
+		    throw new io.cucumber.java.PendingException();
+		}
+		
+		@Then("I verify the {int}")
+		public void i_verify_the(Integer int1) {
+		    // Write code here that turns the phrase above into concrete actions
+		    throw new io.cucumber.java.PendingException();
+		}
+
+
+
+
+}

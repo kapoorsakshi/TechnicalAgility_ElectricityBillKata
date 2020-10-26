@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="electricitybill" tests="8" started="8" failures="0" errors="6" ignored="0">
+  <testsuite name="electricitybill.TestRunner" time="0.781">
+    <testsuite name="Calculate electricity bill" time="0.781">
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.466"/>
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.01"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.15">
+        <error>io.cucumber.junit.UndefinedStepException: The step "I verify the FCA charge 5.2" is undefined. You can implement it using the snippet(s) below:
+
+@Then("I verify the FCA charge {double}")
+public void i_verify_the_fca_charge(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.017">
+        <error>io.cucumber.junit.UndefinedStepException: The step "I verify the FCA charge 6.5" is undefined. You can implement it using the snippet(s) below:
+
+@Then("I verify the FCA charge {double}")
+public void i_verify_the_fca_charge(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Calculate Duty Charge Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.047">
+        <error>io.cucumber.junit.UndefinedStepException: The step "I verify the Total Duty Charge4.068" is undefined. You can implement it using the snippet(s) below:
+
+@Then("I verify the Total Duty Charge4.{int}")
+public void i_verify_the_total_duty_charge4(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Calculate Duty Charge Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.053">
+        <error>io.cucumber.junit.UndefinedStepException: The step "I verify the Total Duty Charge5.085" is undefined. You can implement it using the snippet(s) below:
+
+@Then("I verify the Total Duty Charge5.{int}")
+public void i_verify_the_total_duty_charge5(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Calculate Total Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.018">
+        <error>io.cucumber.java.PendingException: TODO: implement me&#13;
+	at stepdefs.ElectricityBillTest.i_verify_the_total_amount(ElectricityBillTest.java:79)&#13;
+	at ✽.I verify the Total amount 171.268(file:///C:/Users/sakshi.a.kapoor/Desktop/TechnicalAgility/ElectricityBill_Workspace/electricitybill/src/test/resources/Electrictybill.feature:39)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Calculate Total Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.015">
+        <error>io.cucumber.java.PendingException: TODO: implement me&#13;
+	at stepdefs.ElectricityBillTest.i_verify_the_total_amount(ElectricityBillTest.java:79)&#13;
+	at ✽.I verify the Total amount 214.085(file:///C:/Users/sakshi.a.kapoor/Desktop/TechnicalAgility/ElectricityBill_Workspace/electricitybill/src/test/resources/Electrictybill.feature:39)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

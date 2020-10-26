@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="electricitybill" tests="2" started="2" failures="0" errors="2" ignored="0">
+  <testsuite name="electricitybill.TestRunner" time="2.086">
+    <testsuite name="Calculate electricity bill" time="2.086">
+      <testcase name="calculate Energy Charges Units consumed less or equal to 50 units #1" classname="Calculate electricity bill" time="2.085">
+        <error>io.cucumber.junit.UndefinedStepException: The step "My electricity bill is  40" is undefined. You can implement it using the snippet(s) below:
+
+@Given("My electricity bill is  {int}")
+public void my_electricity_bill_is(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I check for the energy charges")
+public void i_check_for_the_energy_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I verify the {int}")
+public void i_verify_the(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="calculate Energy Charges Units consumed less or equal to 50 units #2" classname="Calculate electricity bill" time="0.0">
+        <error>io.cucumber.junit.UndefinedStepException: The step "My electricity bill is  50" is undefined. You can implement it using the snippet(s) below:
+
+@Given("My electricity bill is  {int}")
+public void my_electricity_bill_is(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I check for the energy charges")
+public void i_check_for_the_energy_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I verify the {double}")
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

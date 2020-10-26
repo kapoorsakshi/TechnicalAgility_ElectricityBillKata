@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="electricitybill" tests="8" started="8" failures="0" errors="2" ignored="0">
+  <testsuite name="electricitybill.TestRunner" time="0.695">
+    <testsuite name="Calculate electricity bill" time="0.695">
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.374"/>
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.031"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.016"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.008"/>
+      <testcase name="Calculate Duty Charge Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.037">
+        <error>io.cucumber.core.exception.CucumberException: Could not convert arguments for step [I verify the Total Duty Charge4.{int}] defined at 'stepdefs.ElectricityBillTest.i_verify_the_total_duty_charge4(java.lang.Integer)'.&#13;
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.couldNotConvertArguments(PickleStepDefinitionMatch.java:112)&#13;
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:56)&#13;
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)&#13;
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)&#13;
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)&#13;
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)&#13;
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)&#13;
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)&#13;
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)&#13;
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)&#13;
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+Caused by: io.cucumber.cucumberexpressions.CucumberExpressionException: ParameterType {int} failed to transform [068] to class java.lang.Integer&#13;
+	at io.cucumber.cucumberexpressions.ParameterType.transform(ParameterType.java:237)&#13;
+	at io.cucumber.cucumberexpressions.Argument.getValue(Argument.java:64)&#13;
+	at io.cucumber.core.stepexpression.ExpressionArgument.getValue(ExpressionArgument.java:17)&#13;
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:47)&#13;
+	... 32 more&#13;
+Caused by: java.lang.NumberFormatException: For input string: "68"&#13;
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)&#13;
+	at java.lang.Integer.parseInt(Integer.java:580)&#13;
+	at java.lang.Integer.valueOf(Integer.java:740)&#13;
+	at java.lang.Integer.decode(Integer.java:1197)&#13;
+	at io.cucumber.cucumberexpressions.BuiltInParameterTransformer.doTransform(BuiltInParameterTransformer.java:62)&#13;
+	at io.cucumber.cucumberexpressions.BuiltInParameterTransformer.transform(BuiltInParameterTransformer.java:22)&#13;
+	at io.cucumber.cucumberexpressions.ParameterTypeRegistry$5.transform(ParameterTypeRegistry.java:96)&#13;
+	at io.cucumber.cucumberexpressions.ParameterTypeRegistry$5.transform(ParameterTypeRegistry.java:93)&#13;
+	at io.cucumber.cucumberexpressions.ParameterType$TransformerAdaptor.transform(ParameterType.java:268)&#13;
+	at io.cucumber.cucumberexpressions.ParameterType.transform(ParameterType.java:233)&#13;
+	... 35 more&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Calculate Duty Charge Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.133">
+        <error>io.cucumber.junit.UndefinedStepException: The step "I verify the Total Duty Charge5.085" is undefined. You can implement it using the snippet(s) below:
+
+@Then("I verify the Total Duty Charge5.{int}")
+public void i_verify_the_total_duty_charge5(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Calculate Total Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.019"/>
+      <testcase name="Calculate Total Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.073"/>
+    </testsuite>
+  </testsuite>
+</testrun>
